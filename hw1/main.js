@@ -42,5 +42,5 @@ console.log(typeof a, typeof b, typeof c);
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 let name = prompt('Enter your name:');
 let patronymic = prompt('Patronymic:');
-let age = prompt("Enter your age:");
+let age = Number(prompt("Enter your age:"));
  console.log(name, patronymic, age);
